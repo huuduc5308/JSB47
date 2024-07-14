@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width:1150px;
+            height: 650px;
+            background-image: url(./position2.png);
+            background-size: cover;
+            position:relative;
+
+
+        }
+        .container .box1 img{
+            width:200px; 
+            position: absolute;
+            bottom:0px;
+            right:0px;
+            border-radius: 5px;
+
+
+
+        }
+        .container .box1 p{
+            color: white;
+            font-size: 13px;
+            padding-left: 900px;
+            padding-top: 600px;
+        }
+        .container .box2 {
+            background-color: white;
+            position:absolute;
+            left:50%;
+            transform:translateX(-50%);
+            bottom:10px;
+            width: 450px;
+            height:50px;
+            display:flex;
+            justify-content: space-around;
+            
+
+
+        }
+        .container .box2 .box3 p{
+            font-size: 15px;
+        }
+        
+
+        
+        .container .box2 .box4{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            width:100px;
+            height:40px;
+            background-color: rgb(57, 57, 233);
+            margin-top: 5px;
+            margin-bottom:5px;
+            border-radius: 40px;
+        }
+        .container .box2 .box4 p{
+            color:white;
+            
+            border-radius: 20px;
+            
+            font-size: 12px;
+            text-align: center;
+            
+
+            
+        }
+        .container .box2 .box5 p{
+            color: rgb(48, 48, 243);
+        }
+
+        
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <img src="https://i.pinimg.com/474x/dd/43/aa/dd43aa977302984f3725256a779809fc.jpg" alt="">
+            <p> Nguyễn Danh Phương</p>
+
+
+        </div>
+        <div class="box2">
+            <div class="box3">
+                <p>meet.google.com đang chia sẻ màn hình của bạn</p>
+            </div>
+            <div class="box4">
+                <p>Dừng chia sẻ</p>
+            </div>
+            <div class="box5">
+                <p><u>Ẩn</u></p>
+            </div>
+
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

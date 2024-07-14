@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box_container{
+            width: 500px;
+            margin: 0 auto;
+            height: 500px;
+            border: 2px solid red;
+            box-sizing: border-box;
+            display:flex;
+            justify-content: space-between;
+            
+            
+            
+          
+            
+           
+            }
+            
+        .box1{
+            /* background-color: red; */
+            width: 150px;
+            height:500px;
+            display:flex;
+            
+            flex-direction: column;
+            justify-content: space-between;
+
+            }
+        .box1 div{
+            width: 100%;
+            height:150px;
+            background-color: aqua;
+            }           
+        .box2{
+            /* background-color: blue; */
+            
+            
+            width: 150px;
+            
+            height:500px;
+            display:flex;
+            
+            flex-direction: column;
+            justify-content: space-between;
+            
+            
+        }
+        .box2 div{
+            width: 100%;
+            height:150px;
+            background-color: aqua;
+
+            }
+            .box3{
+                background-color: blue;
+                width: 150px;
+            
+            height:500px;
+            display:flex;
+            
+            
+            
+
+            }
+            .box3 div{
+                width: 100%;
+            height:150px;
+            background-color: aqua;
+
+                }
+        
+            
+            
+        
+        /* display:flex 
+        -Công dụng: điều chính các khối con nằm trong 1 container
+        mình có thể chỉnh được vị trí các khối con đó 
+        -Các khối con nằm trong khối cha có display sẽ 
+        mặc định nằm ngang hàng vs nhau
+        -justify-content: căn chỉnh trục ngang
+        +space-between: căn chỉnh khoảng cách = nhau giữa các khối con 
+        +space-around:: căn chỉnh khoảng cách = nhau giữa các khối con, cách lề 1 khoảng = nửa khoảng cách các khối con
+        +space-evenly: căn chỉnh khoảng cách = nhau giữa các khối con và lề
+        +flex-end;flex-start: dồn về cuối,đầu
+        -align-items: căn chỉnh trục dọc
+        -flex-direction: row
+        */
+    </style>
+</head>
+<body>
+    <div class="box_container">
+    <div class="box1 ">
+        <div></div>
+        <div></div>
+    </div>
+    <div class="box3">
+        <div></div>
+        <div></div>
+    </div>
+
+    <div class="box2 ">
+        <div></div>
+        <div></div>
+    </div>
+     
+    </div>
+
+    
+</body>
+</html>

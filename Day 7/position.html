@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+
+
+      /*  */
+      /* position: relative; 
+       -Di chuyển thế mà k làm ảnh hưởng đến các thẻ khác 
+       -Di chuyển 1 khối mà k làm ảnh hưởng đến dòng chảy của trang*/
+       /* position :absolute
+       -Tách khối đấy ra dòng chảy của trang web 
+       -Những thẻ sau nó sẽ thế vào chỗ trống nó dể lại */
+
+
+       .container{
+        background-color: pink;
+        width: 500px;
+        height:500px;
+        position: relative;
+       }
+       .container .box{
+        width:100px;
+        height:100px;
+       } 
+       .container .box1{
+        background-color: red;
+        position: absolute;
+        right:0px;
+
+
+       } 
+       .container .box2 {
+        background-color: blue;
+      }
+
+      .container .box3 {
+        background-color: green;
+        position: absolute; 
+        bottom:0px;
+       } 
+       .container .box4{
+        background-color: purple;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        
+
+
+       }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1 box"></div>
+        <div class="box2 box"></div>
+        <div class="box3 box"></div>
+        <div class="box4 box"></div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>
